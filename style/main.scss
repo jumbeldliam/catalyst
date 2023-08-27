@@ -1,0 +1,266 @@
+body {
+  background: #181818;
+	font-family: sans-serif;
+	text-align: center;
+  margin: 0;
+}
+
+
+.justify_column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  height: 45px;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, .25);
+  color: #b2b2b2;
+}
+
+.center_nav {
+  width: 25%;
+}
+
+.calander_wr {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.calander_day {
+  width: 14%;
+  aspect-ratio: 1;
+  box-shadow: 2px 2px 5px;
+  position: relative;
+}
+
+.blank_day_calander {
+  background: #212121;
+}
+
+.event_day_calander {
+  background: #282828;
+}
+
+
+.event_day_number {
+  color: #b3b3b3;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 0;
+  padding: 5px 7px;
+  font-size: 12px;
+}
+
+.calander_day_of_week {
+  color: #b3b3b3;
+  width: 14%;
+  position: relative;
+}
+
+.date_tracker {
+  color: #b3b3b3;
+  font-size: 24px;
+  margin: 5px 25px;
+}
+
+.calander_tool_helper {
+  width: 60%;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.reset {
+  all: unset
+}
+
+.img_icon_wpr {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 5px
+}
+
+.img_icon {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  opacity: .25;
+  cursor: pointer;
+  user-select: none;
+}
+
+.txt_icon_wpr {
+  color: #b3b3b3;
+  cursor: pointer;
+}
+
+.calander_helper {
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+
+.calander_event_blob {
+  cursor: pointer;
+  position: absolute;
+  opacity: .5;
+  width: 100%;
+
+}
+
+.calander_event_blob_time {
+  position: absolute;
+  left: 0;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%, 0px);
+}
+
+.clander_event_blob_start_time {
+  transform: translate(-50%, 0px);
+}
+
+.calander_blob_club_acr {
+  color: white;
+  font-size: 10px;
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  left: 18px;
+}
+
+.calander_blob_running_notice {
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: white;
+  border-radius: 100%;
+  transform: translate(50%, -50%);
+}
+
+.club_pfp {
+  position: absolute;
+}
+
+.center_vert_abs {
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+
+.calander_blob_event_name {
+  font-size: 8px;
+  color: white;
+  position: absolute;
+  right: 14px;
+  margin: 0;
+}
+
+.full_post_wr {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full_post {
+  width: 50%;
+  height: 75%;
+  aspect-ratio: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  background: #121212;
+  color: #b2b2b2;
+  padding: 15px;
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 35px;
+  margin: auto;
+}
+
+.full_post_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5px;
+  padding-bottom: 15px;
+}
+
+.full_post_club_desg {
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.full_post_club_acr {
+  font-size: 12px;
+  opacity: .5;
+  margin: 0 5px;
+}
+
+.full_post_club_name {
+  font-size: 20px
+}
+
+.full_post_event_name {
+  font-size: 18px;
+}
+
+.full_post_body_wr {
+  width: 100%;
+  height: calc(100% - 40px);
+  box-sizing: border-box;
+  border: 2px solid
+}
+
+.full_post_body {
+  color: #888888;
+}
+
+.full_post_notifs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(calc(100% + 10px), 50px);
+  text-align: left;
+}
+
+.full_post_food_notif {
+}
+
+.full_post_extra_info {
+  top: 8px;
+  position: relative;
+  text-align: left;
+  padding: 0 15px;
+  color: #888888;
+}
+
+.post_view_wr {
+  height: 67%;
+  position: fixed;
+  width: 100%;
+  padding: 30px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+}
+
+.nav_btn {
+  cursor: pointer;
+}
